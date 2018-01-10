@@ -1,1 +1,52 @@
-article, aside, figure, footer, header, hgroup, menu, nav, section { display:block; }
+/*article, aside, figure, footer, header, hgroup, menu, nav, section { display:block; }*/
+body {
+	color: #777777;
+}
+
+header {
+
+}
+
+footer {
+		clear:both;
+		border-top: 5px;
+		border-color: #4aaaa5;
+		border-top: 5px solid #4aaaa5;
+}
+
+h1 {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.logo {
+	float: left;
+	background-color: #4aaaa5;
+	margin-left: 160px;
+	margin-right: 440px;
+	width: 250px;
+	height: 90px;
+	text-align: center;
+	display: table;
+
+}
+
+.topnav {
+	float: left;
+}
+
+.meat	{
+	clear: both;
+	height: 560px;
+	background-image: url(https://static.vecteezy.com/system/resources/previews/000/139/736/non_2x/free-vector-grunge-beige-background.jpg);
+}
+main {
+	float: left;
+	margin-left: 160px;
+	margin-right: 45px;
+	margin-top: 40px;
+	width: 650px;
+	border: 5px solid #dddddd;
+	background-color:#ffffff;
+
+}
