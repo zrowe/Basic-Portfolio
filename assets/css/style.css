@@ -60,16 +60,19 @@ header {
 	padding-bottom: 0px;
 }
 
-.topnav {
+nav {
 	float: right;
-		height: 90px;
-	font-size: 18px;
-	display: table;
+	height:90px;
+}
 
+.topnav {
+	display:table;
+	font-size: 18px;
+	top: 50%; 
 }
 
 .navitem {
-		display: table-cell;
+	display: table-cell;
 	vertical-align: middle;
 	padding: 0px 20px 0px 20px;
 	border-right:5px solid red;
@@ -116,7 +119,7 @@ aside {
 
 }
 
-footer {
+/* footer {
 		clear:both;
 		border-top: 5px;
 		background-color: #666666;
@@ -126,8 +129,23 @@ footer {
 		color: white;
 		padding-top: 40px;
 		padding-bottom: 45px;
+} */
+
+footer {
+		clear:both;
+		width: 100%;
+		background-color: #666666;
+		border-top: 5px solid #4aaaa5;
+		height: 100px;
+		display: table;
 }
 
+.copyright {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
 
 
 h1 {
