@@ -105,12 +105,14 @@ article {
 
 aside {
 	font-size: 16px;
+		margin-top: 30px;
 	box-sizing: border-box;
 	float: right;
 	margin-top: 40px;
 	width: 270px;
 	background-color:#ffffff;
 	border: 2px solid #dddddd;
+		padding: 30px;
 
 }
 
@@ -119,31 +121,48 @@ footer {
 		border-top: 5px;
 		background-color: #666666;
 		border-top: 5px solid #4aaaa5;
+		text-align: center;
+		height: 100px;
+		color: white;
+		padding-top: 40px;
+		padding-bottom: 45px;
 }
+
+
 
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 27px;
 	color: #4aaaa5;
 	padding-bottom: 30px;
-
+	font-weight: bold;
 }
 
 #article {
 	border-top: 3px solid #dddddd;
 	padding-top: 30px;
+}
 
+#aside {
+	border-top: 3px solid #dddddd;
+	padding-top: 20px;
 }
 
 h2{
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 23px;
+	font-size: 20px;
 	color:#4aaaa5;
+	font-weight: bold;
+		padding-bottom: 20px;
 }
 
 .profile_img{
 	float: left; 
 	margin-right: 20px; 
-	object-fit: cover
+	object-fit: cover;
 }
 
+.icons {
+	object-fit: contain;
+
+}
