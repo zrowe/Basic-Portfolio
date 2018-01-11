@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Paul Rowe</title>
 	<meta name="robots" content="noindex">
+	<title>Paul Rowe</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -10,28 +10,37 @@
 <body>
 	<header>
 		<section class="logo">
-			<h1>Paul Rowe</h1>
+			<h1 id="logo">Paul Rowe</h1>
 		</section>
 		<nav>
-			<div class="topnav" id="myTopnav">
-  				<a href="index.html">About</a>
-  				<a href="portfolio.html">Portfolio</a>
-  				<a href="contact.html">Contact</a>
+			<div class="topnav">
+  				<a href="index.html" class="navitem">About</a>
+  				<a href="portfolio.html" class="navitem">Portfolio</a>
+  				<a href="contact.html" class="navitem lastitem">Contact</a>
 			</div>
 		</nav>
 	</header>
-	<section class=meat>
-		<div class="row" style="width: 960px ">
-			<main>
+	<section class="row">
+		<main>
+			<article>
 				<h1>About Me</h1>
 
-				<img class="profile_img" src="assets/images/profile.jpg" width="240" height="240"  alt="Pic of me">
+				<div id="article">
 
-				<p>Experienced Customer Success Manager with a demonstrated history of working in the information technology and services industry. Skilled in Business Alliances, Enterprise Software, SaaS, PaaS, Storage, and Systems Management.</p>
-			</main>
+					<img class="profile_img" src="assets/images/profile.jpg" width="200" height="150"  alt="Pic of me">
 
-			<aside class="column" style="float: left; width: 270px">
-				<h1>Connect with Me</h1>
+					<p>
+						Phasellus vel eleifend ligula. Donec euismod pharetra felis nec finibus. Cras dictum ornare elit vel vestibulum. Vestibulum vitae ex id eros venenatis feugiat. In blandit sed dui non cursus. In vel turpis ut lectus faucibus accumsan a vel est. Integer laoreet porttitor metus, ut pulvinar risus interdum at. Aliquam lacinia metus eu lectus blandit elementum. Duis ac arcu non ligula egestas interdum. Proin dapibus vel risus a egestas. 
+					</p>
+					<br>
+					<p>
+						Maecenas luctus venenatis varius. Vivamus in mi dolor. Aenean turpis tortor, fermentum ac dui in, euismod pretium mi. Ut mattis nunc tellus, ac vestibulum nulla suscipit efficitur. Phasellus a dictum tellus. Curabitur accumsan est id leo aliquam, quis blandit purus mattis. Curabitur viverra eros et felis fringilla auctor.
+					</p>
+				</div>
+			</article>
+
+			<aside>
+				<h2>Connect with Me</h2>
 
 				<a href="https://github.com/zrowe" target=”_blank”><img src="assets/images/icon-github.png" width="60" alt="github icon"> </a>
 
@@ -40,9 +49,8 @@
 				<a href="https://stackoverflow.com/users/9170937/paul-rowe" target=”_blank”><img src="assets/images/icon-stackoverflow.png" width="60" alt="stackoverflow icon"></a>
 
 			</aside>
-		</div>
+		</main>
 	</section>	
-
 	<footer>
 		&copy; Copyright 2017 Paul Rowe
 	</footer>
