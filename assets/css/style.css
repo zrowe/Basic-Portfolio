@@ -66,9 +66,11 @@ nav {
 }
 
 .topnav {
+	
 	display:table;
 	font-size: 18px;
 	top: 50%; 
+	margin: 40px 0px ;
 }
 
 .navitem {
