@@ -2,21 +2,25 @@
 a:link    {
   /* Applies to all unvisited links */
   text-decoration:  none;
+  color: #777777;
   } 
 
 a:visited {
   /* Applies to all visited links */
   text-decoration:  none;
+  color: #777777;
   } 
 
 a:hover   {
   /* Applies to links under the pointer */
-  text-decoration:  none;
+  text-decoration:  underline;
+  color: #777777;
   } 
 
 a:active  {
   /* Applies to activated links */
   text-decoration:  none;
+  color: #777777;
   } 
 
 p {
@@ -77,7 +81,8 @@ nav {
 	display: table-cell;
 	vertical-align: middle;
 	padding: 0px 20px 0px 20px;
-	border-right:5px solid red;
+	border-right-style: solid;
+	border-right-width: thin; 
 }
 
 .lastitem {
@@ -96,7 +101,7 @@ main	{
 	clear: both;
 	margin:0 auto;
 	width: 960px;
-	height: 560px;
+	/*height: 560px;*/
 }
 
 article {
@@ -136,6 +141,10 @@ aside {
 footer {
 		clear:both;
 		width: 100%;
+		position: fixed;
+   left: 0;
+   bottom: 0;
+
 		background-color: #666666;
 		border-top: 5px solid #4aaaa5;
 		height: 100px;
@@ -185,4 +194,37 @@ h2{
 .icons {
 	object-fit: contain;
 
+}
+
+input {
+	width: 100%;
+	height: 35px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    width: 116px;
+    height: 40px;
+}
+
+
+textarea {
+	width: 100%; 
+	height: 200px;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+}
+
+.after-box {
+    border: 3px solid red; 
 }
